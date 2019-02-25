@@ -1,0 +1,9 @@
+{
+    "presets": [
+        ["es2015",{"modules":false}],"react"
+    ],
+    "plugins": [
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],//实现antd按需加载
+        ["transform-runtime"]
+    ]
+}

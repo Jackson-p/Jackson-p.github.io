@@ -1,0 +1,104 @@
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 56px;
+    line-height: 56px;
+    box-shadow: 0 2px 8px #f0f1f2;
+    margin-bottom: 2px;
+    z-index: 10;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+.hfixed{
+    position: fixed;
+}
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+.banner-header{
+    display: flex;
+}
+.banner-header h1{
+    font-size: 24px;
+    color: #7f7f7f; 
+}
+.banner-header img{
+    width: 50px;
+    /* height: 50px; */
+    border-radius: 50%;
+    float: left;
+    margin-top:2px;
+}
+.banner-tag{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+.banner-tag a{
+    color: #7f7f7f;
+    text-decoration: none;
+}
+.banner-tag li{
+    list-style: none;
+    align-items: center;
+    min-width: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+.banner-tag li:hover{
+    border-bottom: 2px solid orange;
+    cursor: pointer;
+    color: #1890ff;
+}
+.selected-tag{
+    border-bottom: 2px solid orange;
+    color: #1890ff;
+}
+.scrolltop{
+    background-color: rgba(255,255,255,0);
+    box-shadow: 0 0 0 0 ;
+}
+#peoclock{
+    position:absolute;
+    top:-5px;
+    right:-35px;
+}
+.respmenu{
+    display: none;
+    width: 56px;
+    margin: auto;
+}
+.respIcon{
+    height: 3px;
+    background-color: #000;
+    display: block;
+    width: 35px;
+    margin:11px 5px;
+}
+/* 以下尝试用纯CSS+媒体查询实现响应式导航栏 */
+@media screen and (max-width:768px) {
+    .banner-tag{
+        display: none;
+        margin-right:0;
+        margin-top:6px;
+        position: relative;  
+    }
+    .respmenu{
+        display: block;
+        float: right;
+        margin: auto;
+    }
+    #checkbox:checked~ul{
+        display: block;
+        box-shadow: 0 0 5px #333333;
+        padding-left: 0px;
+        float: right;
+        clear:both;
+        background-color: #fff;
+    }
+}
