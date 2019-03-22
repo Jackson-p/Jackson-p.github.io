@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "static/weibo-90e3e.min.png"
   },
   {
-    "revision": "bf762b85d6bc5feafb94fc973a575376",
-    "url": "static/head-bf762.min.jpg"
+    "revision": "2c6f7d1e0071cb251505f8ab801861a7",
+    "url": "static/head-2c6f7.min.jpg"
   },
   {
     "revision": "01ad9fd832496a611cdea3fb170498a9",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "static/bcg-edf88.min.jpg"
   },
   {
-    "revision": "9ad99948783c44d43fd1",
-    "url": "page-6e327.bundle.js"
+    "revision": "0ff0d880eddcf3c607e4",
+    "url": "page-07f60.bundle.js"
   },
   {
-    "revision": "af666623eccdf93a4884cf80c4a20899",
+    "revision": "7944c9d5ffd0b6790638a9cbc2ba95ac",
     "url": "index.html"
   }
 ];
