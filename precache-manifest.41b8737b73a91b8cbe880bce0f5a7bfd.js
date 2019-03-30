@@ -5,7 +5,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "8b956c68c4b00883b3b8",
-    "url": "page-0d71c.bundle.js"
+    "url": "page-98c91.bundle.js"
   },
   {
     "revision": "90e3e73822405f0ee8eeea27756b1541",
@@ -40,19 +40,23 @@ self.__precacheManifest = [
     "url": "tith.ICO"
   },
   {
-    "revision": "917b1ee667a02e2c5df07ae50a47301e",
+    "revision": "660c1f5d82860783f95859fb0b97ee3b",
     "url": "marked.min.js"
   },
   {
-    "revision": "52908711d47292dab63021867b147c3f",
+    "revision": "841eecc06b2c42e932938a14614af228",
     "url": "index.html"
   },
   {
-    "revision": "50411ad6ef1555f07985d2f680336cdb",
+    "revision": "e725c3aee301dbe6d0f414f23aa1fbf7",
     "url": "highlight.min.js"
   },
   {
     "revision": "fc5ab06feef9eeba24c6f19e558e79f5",
     "url": "axios.min.js"
+  },
+  {
+    "revision": "194577a7e20bdcc7afbb718f502c134c",
+    "url": ".DS_Store"
   }
 ];
